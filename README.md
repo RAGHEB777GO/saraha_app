@@ -3,19 +3,15 @@
  
 
 PORT=5000
-MONGO_URI=your_mongo_uri
-JWT_SECRET=your_jwt_secret
+MONGO_URI=mongodb://127.0.0.1:27017/saraha
+JWT_SECRET=superSecretKey123
 
-CLOUD_NAME=your_cloud_name
-CLOUD_API_KEY=your_cloud_api_key
-CLOUD_API_SECRET=your_cloud_api_secret
+CLOUD_NAME=dwjjzbrcz
+CLOUD_API_KEY=943999828833923
+CLOUD_API_SECRET=_Y19mWiRTssXehkAc8tt5aDjT2k
 
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-EMAIL_HOST=your_email_host
-EMAIL_PORT=your_email_port
-EMAIL_USER=your_email_user
-EMAIL_PASS=your_email_pass
+EMAIL_HOST=smtp.gmail.com 
+EMAIL_PORT=587
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
 FRONTEND_URL=http://localhost:3000
-
